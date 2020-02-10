@@ -4,6 +4,11 @@
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
+.App p,
+.App h1 {
+  font-family: 'Lato', sans-serif;
+}
+
 .App a {
   color: #262626;
   text-decoration: none;
@@ -16,6 +21,16 @@
 .App-logo {
   height: 25vmin;
   pointer-events: none;
+}
+
+.project-img {
+  transition: transform .2s;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px #61dafb;
+}
+
+.App img:hover {
+  transform: scale(1.1);
 }
 
 @media (prefers-reduced-motion: no-preference) {
