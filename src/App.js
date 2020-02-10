@@ -5,6 +5,8 @@ import Nav from './Nav';
 import Ravenous from './Ravenous';
 import Travel from './Travel';
 import MiniGame from './MiniGame';
+import Recipe from './Recipe';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,6 +21,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/Ravenous" component={Ravenous} />
+          <Route path="/Recipe" component={Recipe} />
           <Route path="/Travel" component={Travel} />
           <Route path="/MiniGame" component={MiniGame} />
         </Switch>
